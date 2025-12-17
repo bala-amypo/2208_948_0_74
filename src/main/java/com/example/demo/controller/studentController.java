@@ -13,5 +13,10 @@ public List<studentEntity>getAll(){
 
 
 }
-@P
+@PostMapping("/add")
+public studentEntity addStudent(@Valid @RequestBody studentEntity student)
+{
+    return service.addStudent(student);
+}
+
 }
