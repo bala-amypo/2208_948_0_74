@@ -5,5 +5,8 @@ import com.example.demo.entity.*;
 public class studentController{
     @Autowired
 
-    @GetMapping
+    @GetMapping("/getAllStudent")
+public List<studentEntity>getAll(){
+    return service.getAll();
+}
 }
