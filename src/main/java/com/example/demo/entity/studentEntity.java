@@ -1,5 +1,5 @@
 package com.example.demo.entity;
-import jakarta.persistance.*;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 @Entity
 public class studentEntity{
