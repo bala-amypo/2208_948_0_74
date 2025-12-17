@@ -4,5 +4,9 @@ import
 public class globalExceptionHandler
 {
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<?>handleField
+    public ResponseEntity<?>handleFieldError(MethodArgumentNotValidException ex)
+    {
+        Map<String,String>
+    }
+    
 }
