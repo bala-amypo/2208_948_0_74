@@ -7,10 +7,10 @@ public class studentEntity{
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
 
-    @NotBlank(message="Name is not Valid");
+    @NotBlank(message="Name is not Valid")
     private String name;
 
-@Email(message="Email format is not valid");
+@Email(message="Email format is not valid")
 private String email;
 
 public void setId(long id)
