@@ -3,5 +3,6 @@ import
 @RestControllerAdvice
 public class globalExceptionHandler
 {
-    @ExceptionHandler(MethodArgumentNotValid)
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    public ResponseEntity<?>handleField
 }
