@@ -21,8 +21,9 @@ public class studentServiceImpl implements studentService {
     public studentEntity addStudent(studentEntity student)
     {
         return repo.save(student);
-        
+
         
 
     }
+    
 }
