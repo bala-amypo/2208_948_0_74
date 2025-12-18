@@ -29,5 +29,6 @@ public class studentServiceImpl implements studentService {
     {
         return repo.findbyId(id).orElseThrow(()-> new )
     }
+    public String deleteByID()
 
 }
