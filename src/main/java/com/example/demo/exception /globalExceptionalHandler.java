@@ -13,5 +13,8 @@ public class globalExceptionHandler
     return new RessponseEntity<>(error,HttpStatus.BAD_REQUEST);
         }
     @ExceptionalHandler(StudentNotFoundException.class)
-    public ResponseEntity<?>handle
+    public ResponseEntity<?>handleStudentNotValid(StudentNotFoundException ex)
+    {
+        return ResponseEntity<>(ex.)
+    }
 }
