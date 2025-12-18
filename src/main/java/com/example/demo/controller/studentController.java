@@ -19,6 +19,9 @@ public studentEntity addStudent(@Valid @RequestBody studentEntity student)
     return service.addStudent(student);
 }
 @GetMapping("/get/{id}")
-public studentEntity getbyId(@pathvariable)
-)
+public studentEntity getbyId(@pathvariable long id)
+{
+    return service.getbyId(id);
+}
+
 }
