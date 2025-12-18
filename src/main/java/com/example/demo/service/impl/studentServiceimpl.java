@@ -27,7 +27,7 @@ public class studentServiceImpl implements studentService {
     }
     public studentEntity getbyID(long id)
     {
-        return repo.findbyId(id)
+        return repo.findbyId(id).orElseThrow(()-> new )
     }
 
 }
