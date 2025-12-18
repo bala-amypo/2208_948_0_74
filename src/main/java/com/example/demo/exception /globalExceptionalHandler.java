@@ -12,5 +12,6 @@ public class globalExceptionHandler
     
     return new RessponseEntity<>(error,HttpStatus.BAD_REQUEST);
         }
-    @ExceptionalH
+    @ExceptionalHandler(StudentNotFoundException.class)
+    public ResponseEntity<?>handle
 }
