@@ -23,5 +23,6 @@ public studentEntity getbyId(@pathvariable long id)
 {
     return service.getbyId(id);
 }
-
+@PutMapping("/update/{id}")
+public studentEntity updateById(id,newstu);
 }
